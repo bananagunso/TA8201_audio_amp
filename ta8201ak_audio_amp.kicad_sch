@@ -1463,6 +1463,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 119.38) (xy 135.89 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81599fbe-c8e1-41c3-92e8-b7ba0f85746d")
+	)
+	(wire
+		(pts
+			(xy 135.89 127) (xy 135.89 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "835257f7-8bfe-40a1-a1ef-d6ef11049fdc")
+	)
+	(wire
+		(pts
 			(xy 177.8 86.36) (xy 182.88 86.36)
 		)
 		(stroke
@@ -1523,6 +1543,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 107.95) (xy 135.89 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d18789-d6b1-4154-9fb0-9aa8453c0f54")
+	)
+	(wire
+		(pts
 			(xy 198.12 106.68) (xy 198.12 107.95)
 		)
 		(stroke
@@ -1530,16 +1560,6 @@
 			(type default)
 		)
 		(uuid "b3de7835-6171-4a30-b67b-c99c4297d78b")
-	)
-	(wire
-		(pts
-			(xy 134.62 107.95) (xy 140.97 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b63c20a4-57cf-41ba-ba4e-623622de3268")
 	)
 	(wire
 		(pts
@@ -1580,6 +1600,16 @@
 			(type default)
 		)
 		(uuid "c1488930-180f-48dc-aebf-c915fe6a8ccb")
+	)
+	(wire
+		(pts
+			(xy 135.89 107.95) (xy 140.97 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c214f074-42c4-48f6-88c6-68bb61567cd9")
 	)
 	(wire
 		(pts
@@ -2298,6 +2328,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 135.89 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "617ba5e8-2bc9-4cd8-b483-971be7d9fd76")
+		(property "Reference" "R3"
+			(at 138.43 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560"
+			(at 138.43 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P7.62mm_Vertical"
+			(at 134.112 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac701539-ca08-4550-ad3c-d24cd5ff6838")
+		)
+		(pin "2"
+			(uuid "f56dd8c9-152f-4164-af8f-4714bf301b84")
+		)
+		(instances
+			(project "ta8201ak_audio_amp"
+				(path "/3e27d207-50b8-40b2-b752-3d08c7aa128e"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 125.73 105.41 0)
 		(unit 1)
@@ -2506,7 +2606,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 134.62 110.49 0)
+		(at 135.89 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2515,7 +2615,7 @@
 		(fields_autoplaced yes)
 		(uuid "796ec8ff-a90d-430f-847f-834361641bd4")
 		(property "Reference" "C2"
-			(at 137.16 109.3469 0)
+			(at 138.43 123.3169 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2523,8 +2623,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
-			(at 137.16 111.8869 0)
+		(property "Value" "33uF"
+			(at 138.43 125.8569 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2533,7 +2633,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 134.62 110.49 0)
+			(at 135.89 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +2642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 110.49 0)
+			(at 135.89 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,7 +2651,7 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
-			(at 134.62 110.49 0)
+			(at 135.89 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +2757,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "3.3uF"
 			(at 137.414 103.378 90)
 			(effects
 				(font
@@ -2905,7 +3005,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 113.03 0)
+		(at 135.89 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2914,7 +3014,7 @@
 		(fields_autoplaced yes)
 		(uuid "b434c6ac-51cf-4c50-933e-fa1583c6c028")
 		(property "Reference" "#PWR01"
-			(at 134.62 119.38 0)
+			(at 135.89 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +3023,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 118.11 0)
+			(at 135.89 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +3031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 113.03 0)
+			(at 135.89 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +3040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 113.03 0)
+			(at 135.89 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +3049,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 113.03 0)
+			(at 135.89 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2377,7 +2377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 125.73 97.79 0)
 			(effects
 				(font
@@ -2438,7 +2438,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "1.5k"
 			(at 138.43 116.8399 0)
 			(effects
 				(font
@@ -2783,7 +2783,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33uF"
+		(property "Value" "47uF"
 			(at 138.43 125.8569 0)
 			(effects
 				(font
@@ -2917,7 +2917,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3uF"
+		(property "Value" "4.7uF"
 			(at 137.414 103.378 90)
 			(effects
 				(font

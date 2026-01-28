@@ -7847,7 +7847,7 @@
 		(pad "1" thru_hole rect
 			(at -7.660856 0.094857 90)
 			(size 1.45 1.45)
-			(drill 0.85)
+			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "Net-(U1-IN)")
@@ -7858,7 +7858,7 @@
 		(pad "2" thru_hole circle
 			(at -5.120856 0.094857 90)
 			(size 1.45 1.45)
-			(drill 0.85)
+			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 3 "Net-(U1-NF)")
@@ -7869,7 +7869,7 @@
 		(pad "3" thru_hole circle
 			(at -2.580856 0.094857 90)
 			(size 1.45 1.45)
-			(drill 0.85)
+			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 5 "Net-(U1-R.F)")
@@ -7880,7 +7880,7 @@
 		(pad "4" thru_hole circle
 			(at -0.040856 0.094857 90)
 			(size 1.45 1.45)
-			(drill 0.85)
+			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 4 "GND")
@@ -7891,7 +7891,7 @@
 		(pad "5" thru_hole circle
 			(at 2.499144 0.094857 90)
 			(size 1.45 1.45)
-			(drill 0.85)
+			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 12 "Net-(J5-Pin_1)")
@@ -7902,7 +7902,7 @@
 		(pad "6" thru_hole circle
 			(at 5.039144 0.094857 90)
 			(size 1.45 1.45)
-			(drill 0.85)
+			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 6 "VCC")
@@ -7913,7 +7913,7 @@
 		(pad "7" thru_hole circle
 			(at 7.579144 0.094857 90)
 			(size 1.45 1.45)
-			(drill 0.85)
+			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 7 "Net-(J2-Pin_1)")

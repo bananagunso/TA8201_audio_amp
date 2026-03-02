@@ -1442,7 +1442,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "IN"
 			(at 93.345 99.06 0)
 			(effects
 				(font
@@ -1568,7 +1568,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "17791530-5072-4574-b0e5-b6ef03c036ea")
 		(property "Reference" "J3"
 			(at 203.835 81.28 0)
@@ -1578,8 +1577,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 203.835 83.82 0)
+		(property "Value" "Vcc"
+			(at 213.106 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +2180,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "Out1"
 			(at 202.565 100.33 0)
 			(effects
 				(font
@@ -2591,7 +2590,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "Out2"
 			(at 202.565 105.41 0)
 			(effects
 				(font
@@ -3182,18 +3181,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c555170b-85af-464b-b951-1916fa5323cd")
 		(property "Reference" "J4"
-			(at 203.835 83.82 0)
+			(at 207.01 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 203.835 86.36 0)
+		(property "Value" "Gnd"
+			(at 210.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)

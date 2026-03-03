@@ -1187,16 +1187,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 101.6) (xy 116.84 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c3334af-b73d-4236-9cd1-753bfa08bf39")
-	)
-	(wire
-		(pts
 			(xy 171.45 107.95) (xy 185.42 107.95)
 		)
 		(stroke
@@ -1227,7 +1217,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 101.6) (xy 107.95 101.6)
+			(xy 97.79 101.6) (xy 105.41 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1257,7 +1247,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 119.38) (xy 135.89 121.92)
+			(xy 135.89 107.95) (xy 135.89 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1327,16 +1317,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 107.95) (xy 135.89 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0d18789-d6b1-4154-9fb0-9aa8453c0f54")
-	)
-	(wire
-		(pts
 			(xy 185.42 115.57) (xy 185.42 121.92)
 		)
 		(stroke
@@ -1394,6 +1374,16 @@
 			(type default)
 		)
 		(uuid "d9ef4711-d90a-486c-84b3-d7ad982d5a69")
+	)
+	(wire
+		(pts
+			(xy 110.49 101.6) (xy 116.84 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daadad56-85be-4e3d-aa8f-ead993ffea91")
 	)
 	(wire
 		(pts
@@ -1484,6 +1474,74 @@
 			(project "ta8201ak_audio_amp"
 				(path "/3e27d207-50b8-40b2-b752-3d08c7aa128e"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 107.95 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0218ad2a-33a7-4af1-b422-d11a65f22079")
+		(property "Reference" "C7"
+			(at 107.9563 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.022u"
+			(at 107.9563 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+			(at 107.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 107.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a25ad7c-aecd-4497-b98e-460f8dc0f511")
+		)
+		(pin "1"
+			(uuid "b380dc2b-bb2a-481e-b3d7-17059b51f3d2")
+		)
+		(instances
+			(project "ta8201ak_audio_amp"
+				(path "/3e27d207-50b8-40b2-b752-3d08c7aa128e"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -2228,144 +2286,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 135.89 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "617ba5e8-2bc9-4cd8-b483-971be7d9fd76")
-		(property "Reference" "R3"
-			(at 138.43 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "620"
-			(at 138.43 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
-			(at 134.112 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 135.89 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac701539-ca08-4550-ad3c-d24cd5ff6838")
-		)
-		(pin "2"
-			(uuid "f56dd8c9-152f-4164-af8f-4714bf301b84")
-		)
-		(instances
-			(project "ta8201ak_audio_amp"
-				(path "/3e27d207-50b8-40b2-b752-3d08c7aa128e"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 111.76 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "659c25eb-850b-4b62-ae18-0d1cd78ba0cf")
-		(property "Reference" "R4"
-			(at 111.76 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "39k"
-			(at 111.76 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
-			(at 111.76 103.378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 111.76 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1164ec43-2050-49db-b729-4d186f928460")
-		)
-		(pin "2"
-			(uuid "0a1b4931-a4e1-4bdd-8ca7-bae89f669e10")
-		)
-		(instances
-			(project "ta8201ak_audio_amp"
-				(path "/3e27d207-50b8-40b2-b752-3d08c7aa128e"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 125.73 105.41 0)
 		(unit 1)
@@ -2994,7 +2914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 115.062 105.41 90)
 			(effects
 				(font

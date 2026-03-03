@@ -5,197 +5,6 @@
 	(uuid "3e27d207-50b8-40b2-b752-3d08c7aa128e")
 	(paper "A4")
 	(lib_symbols
-		(symbol "@MyLibrary:TA8201AK"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0.254 -0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 5.08 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "@MyLibrary:TA-8220HQ"
-				(at 5.08 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 5.08 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TA8201AK_0_1"
-				(rectangle
-					(start -12.7 10.16)
-					(end 12.7 -8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TA8201AK_1_1"
-				(pin input line
-					(at -15.24 6.35 0)
-					(length 2.54)
-					(name "R.F"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -6.35 0)
-					(length 2.54)
-					(name "NF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -11.43 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -1.27 180)
-					(length 2.54)
-					(name "OUT-1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -6.35 180)
-					(length 2.54)
-					(name "OUT-2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
 				(offset 1.016)
@@ -800,6 +609,197 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MyLibrary:TA8201AK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0.254 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "@MyLibrary:TA-8220HQ"
+				(at 5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TA8201AK_0_1"
+				(rectangle
+					(start -12.7 10.16)
+					(end 12.7 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TA8201AK_1_1"
+				(pin input line
+					(at -15.24 6.35 0)
+					(length 2.54)
+					(name "R.F"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -6.35 0)
+					(length 2.54)
+					(name "NF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -11.43 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -1.27 180)
+					(length 2.54)
+					(name "OUT-1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -6.35 180)
+					(length 2.54)
+					(name "OUT-2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -1508,7 +1508,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.15uF"
+		(property "Value" "0.15u"
 			(at 187.96 125.7362 0)
 			(effects
 				(font
@@ -1709,7 +1709,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF"
+		(property "Value" "1000u"
 			(at 185.42 90.2969 0)
 			(effects
 				(font
@@ -2110,7 +2110,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "220u"
 			(at 124.46 92.71 0)
 			(effects
 				(font
@@ -2315,7 +2315,7 @@
 				)
 			)
 		)
-		(property "Value" "39kΩ"
+		(property "Value" "39k"
 			(at 111.76 97.79 90)
 			(effects
 				(font
@@ -2520,7 +2520,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "47u"
 			(at 138.43 125.8569 0)
 			(effects
 				(font
@@ -2720,7 +2720,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7u"
 			(at 137.414 103.378 90)
 			(effects
 				(font
@@ -2985,7 +2985,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "1M"
 			(at 119.38 106.6799 0)
 			(effects
 				(font
@@ -3121,7 +3121,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.15uF"
+		(property "Value" "0.15u"
 			(at 176.53 125.7362 0)
 			(effects
 				(font
@@ -3304,7 +3304,7 @@
 		)
 	)
 	(symbol
-		(lib_id "@MyLibrary:TA8201AK")
+		(lib_id "MyLibrary:TA8201AK")
 		(at 156.21 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3312,16 +3312,17 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d307c15a-ce23-4f56-a1b4-6a12016f413a")
+		(uuid "cdf69526-52e1-49d3-ae5c-250d2d3182fa")
 		(property "Reference" "U1"
 			(at 156.464 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "TA8201AK"
+		(property "Value" "~"
 			(at 158.3533 88.9 0)
 			(effects
 				(font
@@ -3357,26 +3358,26 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
-			(uuid "d5e052bf-0fec-46c1-94ff-fa19f8da96ce")
+		(pin "2"
+			(uuid "06c370c0-7e7b-4767-aab7-4a5cc97cfe0a")
 		)
 		(pin "4"
-			(uuid "75cbf4b8-4974-4019-9b9d-e1f05664dbc9")
-		)
-		(pin "5"
-			(uuid "8a4b0318-b0f5-4a25-a060-bfa360736b23")
-		)
-		(pin "7"
-			(uuid "bbddd22b-425c-4694-a863-80f08a2adfed")
-		)
-		(pin "2"
-			(uuid "3a94f7eb-740d-4022-a1fd-ecd22c229c1b")
-		)
-		(pin "1"
-			(uuid "a70b2d89-6fb8-4a34-9d0e-c45e9c19ce08")
+			(uuid "5e731ed3-97cc-4c78-8c00-e97b5b04dc42")
 		)
 		(pin "3"
-			(uuid "0c0f8cb7-3e4f-4853-b1fe-0f91ebebc005")
+			(uuid "d7f3cd76-dc05-4f41-a100-8bdc13aa0a02")
+		)
+		(pin "7"
+			(uuid "fc3f35d2-ed74-48df-a50d-2519c7a9248f")
+		)
+		(pin "5"
+			(uuid "c4cb169e-0e9c-4dce-b042-590f86c53df4")
+		)
+		(pin "6"
+			(uuid "25ba12ad-e13c-4337-90dc-c81ca10a775f")
+		)
+		(pin "1"
+			(uuid "c4f43f1a-be75-4767-835e-c7c48ad4d749")
 		)
 		(instances
 			(project ""

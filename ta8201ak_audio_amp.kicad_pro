@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.5,
-          "height": 2.2,
-          "width": 2.2
+          "height": 2.7,
+          "width": 2.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -101,7 +101,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -188,7 +188,7 @@
       ],
       "track_widths": [
         0.0,
-        1.5,
+        1.8,
         2.0,
         3.0
       ],
